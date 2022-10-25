@@ -1,0 +1,45 @@
+
+public class SingleLevel {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		RetiredEmployee E1 = new RetiredEmployee("Daddy","D-12",10000,65);
+		E1.display();
+	}
+	
+}
+
+class Employee{
+	protected String name;
+	protected String eid;
+	
+	public Employee(String name, String eid) {
+//		System.out.println("");
+		this.name = name;
+		this.eid = eid;
+	}
+	
+	public void display() {
+		System.out.println("Name is "+name);
+		System.out.println("Employee id is "+eid);
+	}
+}
+
+class RetiredEmployee extends Employee{
+	protected int pension;
+	protected int age;
+	
+	public RetiredEmployee(String name, String eid, int pension, int age) {
+//		System.out.println("******Reired Employee*****");
+		super(name, eid);
+		this.pension = pension;
+		this.age = age;
+	}
+	
+	public void display() {
+		System.out.println("Name is "+name);
+		System.out.println("Employee id is "+eid);
+		System.out.println("Age is "+age);
+		System.out.println("Pension is "+pension);
+	}
+}

@@ -1,0 +1,30 @@
+
+public class GenricTest {
+
+ public static void main(String[] args) {
+  // TODO Auto-generated method stub
+  Employee<String,Integer> e = new Employee<String,Integer>("Sarah",20);
+  e.display();
+  
+  Employee <String,String> e1= new Employee<String,String>("Saish","Curchorem");
+  e1.display();
+ }
+
+}
+
+class Employee<T,U>{
+ T val1;
+ U val2;
+ public Employee(T v1,U v2)
+ {
+  val1=v1;
+  val2=v2;
+  
+ }
+ public void display()
+ {
+  System.out.println(val1);
+  System.out.println(val2);
+  
+ }
+}

@@ -1,0 +1,32 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.LinkedList;
+public class Collection27 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List a = new ArrayList();
+//		a.add("KFC");
+//		a.add("VAT");
+//		a.add("MAT");
+//		a.add("CAT");
+//		a.add("ATM");
+//		a.remove(1);
+//		a.remove("MAT");
+//		System.out.println(a);
+		
+		LinkedList Countries = new LinkedList();
+		Countries.add("USA");
+		Countries.add("UK");
+		Countries.add("China");
+		Countries.addLast("Spain");
+		Countries.add("Germany");
+		Countries.addLast("Switzerland");
+		Countries.addFirst("India");
+		Countries.add(1,"Japan");
+		
+		System.out.println(Countries);	
+		
+	}
+
+}

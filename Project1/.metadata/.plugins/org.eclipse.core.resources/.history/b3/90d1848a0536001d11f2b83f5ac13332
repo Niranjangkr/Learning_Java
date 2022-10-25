@@ -1,0 +1,16 @@
+/*10.	8.	Create a class named Account with accno(long) and balance(float)  as instance variables. In the testing class , the account object is created using the following code:
+Account ac1= new Account(‘A-1’);
+ Where ‘A1’  is the Account number.
+ Write appropriate constructor for  the above line of code in the Account class. Also provide appropriate getter/setter methods to initialize the balance.  Include a display method to display account details.
+Objective: Constructors and getter/setter methods.
+*/
+
+class Account
+public class Q_10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

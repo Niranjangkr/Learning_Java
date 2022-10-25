@@ -1,0 +1,19 @@
+/*Create an interface called GeomFigure with area() and perimeter() as abstract methods . Create two classes Rectangle and Triangle with appropriate data members and which implement this interface to compute the area and perimeter of the respective geometrical figures.
+Objective: Use of interfaces*/
+
+interface GeomFigure{
+	public abstract void area();
+	public abstract void perimeter();
+}
+
+class Rectangle impelements GeomFigure{
+
+}
+public class Ass12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
