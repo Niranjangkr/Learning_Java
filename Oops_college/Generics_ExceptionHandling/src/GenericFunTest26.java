@@ -3,7 +3,7 @@ public class GenericFunTest26 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Integer nums [] = {1, 2, 3, 44, 45, 12};
+		/*Integer nums [] = {1, 2, 3, 44, 45, 12};
 		String[] names = {"Niranjan", "Goku", "Yodha", "Midoriya", "Ichgigo"};
 		Character[] chs = {'Z', 'O', 'R', 'O'};
 		printArray(nums);
@@ -25,15 +25,19 @@ public class GenericFunTest26 {
 		for(T e: arr) {
 			System.out.print(e+" ");
 		}
-	}
+	}*/
 	
-//	Arra
-//	  
-//	  String name=(String)names.get(0);
-//	  String name2=(String)names.get(1);
-//	  String name3=(String)names.get(2);
+	 ArrayList name = new ArrayList();
+	 name.add("Hello");
+	 name.add("Challo");
+	 name.add("welcome");
+	 
+	 String name1=(String)name.get(0);
+	 String name2=(String)name.get(1);
+	 String name3=(String)name.get(2);
+	 System.out.println(name1);
 
-
+ }
 }
 class Student11{
 	String name;
